@@ -1,0 +1,163 @@
+@charset "UTF-8";
+
+/*Adicionando fonte externa baixada*/
+@font-face {
+    font-family: 'idroid';
+    src: url('fontes/idroid.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+
+} 
+
+body{
+    background-color: #84E1AD;
+    margin: auto;
+}
+header{
+    background-image: linear-gradient(to top, #1A5C39, #49D782) ;
+    padding-bottom: 10px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.514);
+}
+
+p{
+    text-align: justify;
+    text-indent: 20px;/*Espaço do começo do parágrafo*/
+}
+
+header > h1{
+    text-align: center;
+    color: white;
+    padding-top: 20px;
+    margin: auto;
+}
+
+header > p{
+    color: white;
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+}
+
+nav > a{
+
+    color: white;
+    text-align: center;
+    padding: 2px 2px 2px 2px;
+    margin: 10px 10px 10px 10px;
+    border-radius: 2px 2px 2px 2px;
+    
+}
+
+nav > a:hover{
+
+  background-color: #3c9263;
+    
+}
+
+main{
+    background-color: white;
+    margin-left: 14%;
+    margin-right: 14%;
+    border-radius: 0px 0px 10px 10px;
+    box-shadow: 2px 1px 10px rgba(0, 0, 0, 0.484);
+}
+
+strong{
+    color: #276643;
+}
+.droid{
+    font-family: 'idroid', Times, serif;
+    color: #276643;
+    background-image: linear-gradient(to right, #C8EDD8,white);
+    padding: 0px 0px 0px 10px;
+}
+
+section{
+    padding: 0px 10px 0px 10px;
+}
+
+section#historia > h2{
+    background-image: none;
+    margin: auto;
+    padding: 20px 2px;
+}
+
+section#historia > h2{
+    background-image: none;
+    margin: auto;
+    padding: 20px 2px;
+}
+
+
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+section#mascote > img#bugdroid{
+   
+    width: 50%;
+
+}
+
+section#aprender{
+   padding-bottom: 10px;
+   border-radius: 0px 0px 10px 10px;
+}
+
+section#aprender > h3{
+    background-color:#37A866 ;
+    color: white;
+    margin: auto;
+    padding: 5px;
+    border-radius: 5px 5px 0px 0px;
+}
+
+section#aprender > article{
+    background-color: #C5EBD6;
+    border-radius: 0px 0px 10px 10px;
+
+}
+
+iframe{
+    width: 100%;
+    margin-bottom: 20px;
+}
+article{
+    padding: 10px 10px 10px 10px;
+}
+article > h3{
+    background-color: #37A866;
+}
+
+
+
+ul#list1{
+    
+    display: inline-block;
+    padding-left: 20px;
+    padding-right: 130px;
+   
+   
+}
+ul#list2{
+    
+    display: inline-block;
+    padding-left: 20px;
+    padding-right: auto;
+   
+   
+}
+
+footer{
+    background-color: #1A5C39;
+    color: white;
+    margin-top: 20px;
+    text-align: center;
+}
+
+
