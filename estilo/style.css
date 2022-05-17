@@ -94,13 +94,24 @@ img{
     width: 100%;
 }
 
+main img.pequena{
+    display: block;
+    width: 50%;
+    margin: auto;
+}
+
 aside{
     background-color: var(--cor0);
     padding: 10px;
+    border-radius: 10px;
 }
 
 aside > h3{
     background-color: var(--cor1);
+    color: white;
+    margin: -10px;
+    border-radius: 10px 10px 0px 0px;
+    padding: 5px;
     
 }
 
