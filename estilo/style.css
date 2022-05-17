@@ -50,6 +50,7 @@ header > h1{
 header p{
     max-width: 500px;
     margin: auto;
+    padding-bottom: 20px;
 }
 
 
@@ -104,8 +105,9 @@ main img.pequena{
     margin: auto;
 }
 
-main video{
-    align-items: center;
+div.video > iframe{
+    width: 100%;
+    
 }
 
 aside{
