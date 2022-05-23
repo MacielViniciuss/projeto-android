@@ -26,6 +26,12 @@
 
 }
 
+a{
+    text-decoration: none;
+    color: white;
+    
+}
+
 body{
     font-family: var(--fonte-padrao);
     background-color: var(--cor0);
